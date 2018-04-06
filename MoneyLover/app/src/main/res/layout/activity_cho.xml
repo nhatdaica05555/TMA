@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/hihi"
+    tools:context="com.example.home.moneylover_demo.ChoActivity">
+    <ImageView
+        android:id="@+id/heo"
+        android:layout_width="120sp"
+        android:layout_height="120sp"
+        android:src="@drawable/heo1"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="17sp"
+        android:textSize="12sp"
+        android:textColor="#FFFFFF"
+        android:text="Phiên bản: 1.0"
+        android:id="@+id/thu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/thu1"
+        android:text="Phan Minh Thư"
+        android:layout_below="@+id/thu"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:layout_marginRight="10sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
